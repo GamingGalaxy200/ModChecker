@@ -19,7 +19,7 @@
    ```// Blacklisted Weapon Mods  
   	'1655786638', // Grimdark Armory  
   	'1358695565', // LAGO Weapons Pack  
-  	'2099675634', // Additional Air Weapon```
+  	'2099675634', // Additional Air Weapon
 6. Füge nun die Mod-Liste vom Spieler in die "playermods" Datei ein. Optional ist es die exportierte Liste aus dem Launcher zu nutzen, andere Listen gehen jedoch meist auch.    
     So könnte das aussehen: 
     ```
