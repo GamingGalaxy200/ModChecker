@@ -24,7 +24,8 @@
     So könnte das aussehen: 
     ```
     RHSUSAF Steam https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
-    RHSAFRF Steam https://steamcommunity.com/sharedfiles/filedetails/?id=843425103```
+    RHSAFRF Steam https://steamcommunity.com/sharedfiles/filedetails/?id=843425103
+    ```
 8. Führe im Terminal "npm run start" aus, damit wird das Tool gestartet.
 
 
