@@ -33,4 +33,4 @@
     So könnte das aussehen:```
     Die folgenden IDs sind nicht erlaubt: 3,2,1,3,3,4,4,3,1,4,10```    
     Dies liegt daran dass manchmal Nummern in Mod Namen als IDs erkannt werden. Das Tool funktioniert jedoch weiterhin.
-5. Entworfen wurde dieses kleine Tool für Signal Hill ;) (von Chris)
+5. Entworfen wurde dieses kleine Tool für Signal Hill ;) `von Chris`
