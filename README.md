@@ -15,14 +15,14 @@
 3. Wechsel nun in einem Terminal in das Verzeichnis / den Dateipfad, wo die Repository heruntergeladen wurde.
 4. Führe "npm install" aus. Dadurch werden alle erforderlichen Pakete heruntergeladen, wenn NPM installiert ist.
 5. Füge die aktuelle Liste von Mods auf der Blacklist in die "blacklist" Datei.    
-   So könnte das aussehen:```
-    // Blacklisted Weapon Mods  
+   So könnte das aussehen:  
+   ```// Blacklisted Weapon Mods  
   	'1655786638', // Grimdark Armory  
   	'1358695565', // LAGO Weapons Pack  
   	'2099675634', // Additional Air Weapon```
 6. Füge nun die Mod-Liste vom Spieler in die "playermods" Datei ein. Optional ist es die exportierte Liste aus dem Launcher zu nutzen, andere Listen gehen jedoch meist auch.    
-    So könnte das aussehen:```
-    RHSUSAF Steam https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
+    So könnte das aussehen: 
+    ```RHSUSAF Steam https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
     RHSAFRF Steam https://steamcommunity.com/sharedfiles/filedetails/?id=843425103```
 8. Führe im Terminal "npm run start" aus, damit wird das Tool gestartet.
 
