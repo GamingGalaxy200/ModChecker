@@ -22,7 +22,8 @@
   	'2099675634', // Additional Air Weapon```
 6. Füge nun die Mod-Liste vom Spieler in die "playermods" Datei ein. Optional ist es die exportierte Liste aus dem Launcher zu nutzen, andere Listen gehen jedoch meist auch.    
     So könnte das aussehen: 
-    ```RHSUSAF Steam https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
+    ```
+    RHSUSAF Steam https://steamcommunity.com/sharedfiles/filedetails/?id=843577117
     RHSAFRF Steam https://steamcommunity.com/sharedfiles/filedetails/?id=843425103```
 8. Führe im Terminal "npm run start" aus, damit wird das Tool gestartet.
 
