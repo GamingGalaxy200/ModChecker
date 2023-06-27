@@ -5,12 +5,15 @@ const playerModsFilePath = './data/playermods';
 
 // Überprüfen, ob die Blacklist existiert. Wenn nicht, erstelle sie.
 if (!fs.existsSync(blacklistFilePath)) {
-  console.log(`Die Blacklist Datei existiert nicht. Bitte füge deine Werte ein.`);
+  console.log(`Die Blacklist Datei wurde neu erstellt. Bitte füge deine Werte ein.`);
   fs.writeFileSync(blacklistFilePath, '');
+  process.exit(1);
 }
 // Überprüfen, ob die Playermods-Datei existiert. Wenn nicht, erstelle sie.
-if (!fs.existsSync(playerModsFilePath)) {
+if (!fs.existsSync(playerModsFilePath)) {  
+  console.log(`Die Spieler-Mods Datei wurde neu erstellt. Bitte füge deine Werte ein.`);
   fs.writeFileSync(playerModsFilePath, '');
+  process.exit(1);
 }
 
 // Lesen der Blacklist Datei
