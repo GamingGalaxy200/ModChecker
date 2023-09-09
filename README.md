@@ -6,6 +6,7 @@
 - [Übersicht](#übersicht)
 - [Anleitung](#anleitung)
 - [Infos](#zusätzliche-infos)
+- [Presets Vergleichen](#presets-vergleichen)
 
 
 ## Anleitung:
@@ -36,3 +37,15 @@
     Die folgenden IDs sind nicht erlaubt: 3,2,1,3,3,4,4,3,1,4,10```    
     Dies liegt daran dass manchmal Nummern in Mod Namen als IDs erkannt werden. Das Tool funktioniert jedoch weiterhin.
 5. Entworfen wurde dieses kleine Tool für Signal Hill ;) `von Chris`
+
+
+## Presets Vergleichen
+Mit diesem Tool kannst du auch ganz einfach zwei aus arma exportierte Presets vergleichen, um herauszufinden welche Mods aus einem Preset noch nicht im anderen vorhanden sind.   
+1. Fülle die Datein "preset1" und "preset2" mit den aus Arma exportierten Listen, so könnte das aussehen:
+    So könnte das aussehen: 
+    ```
+    CUP Weapons	Steam	https://steamcommunity.com/sharedfiles/filedetails/?id=497660133
+    NIArms Core	Steam	https://steamcommunity.com/sharedfiles/filedetails/?id=667454606
+    ```
+2. Trage in der "compare.js" Datei die Namen deiner Listen ein, sonst werden die Listen "Liste1" und "Liste2" genannt.
+2. Führe im Terminal "npm run presets" aus, damit wird das Tool gestartet.
