@@ -41,7 +41,7 @@
 
 ## Presets Vergleichen
 Mit diesem Tool kannst du auch ganz einfach zwei aus arma exportierte Presets vergleichen, um herauszufinden welche Mods aus einem Preset noch nicht im anderen vorhanden sind.   
-1. Fülle die Datein "preset1" und "preset2" mit den aus Arma exportierten Listen, so könnte das aussehen:
+1. Fülle die Datein "preset1" und "preset2" mit den aus Arma exportierten Listen.
     So könnte das aussehen: 
     ```
     CUP Weapons	Steam	https://steamcommunity.com/sharedfiles/filedetails/?id=497660133
